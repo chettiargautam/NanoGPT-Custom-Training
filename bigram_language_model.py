@@ -8,7 +8,7 @@ from tqdm import tqdm
 # Hyperparameters
 torch.manual_seed(1337)
 BATCH_SIZE: int = 32  # Number of sequences to process in parallel
-BLOCK_SIZE: int = 8    # Maximum context length for predictions
+BLOCK_SIZE: int = 32    # Maximum context length for predictions
 MAX_ITERATIONS: int = 25000
 EVALUATION_INTERVAL: int = 500
 LEARNING_RATE: float = 1e-3
